@@ -1,0 +1,19 @@
+/* CSS untuk carousel yang aktif / di tengah */
+.owl-item.active.center .slider-card {
+  transform: scale(1);
+  opacity: 1;
+}
+
+/* Css untuk carousel */
+.slider-card {
+  box-shadow: 0 10px 10px 10px rgba(236, 233, 233, 0.73);
+  transform: scale(0.8);
+  opacity: 0.5;
+  transition: all 0.3s;
+  border-radius: 20px;
+}
+
+/* Css untuk gambar  carousel */
+.slider-card img {
+  border-radius: 20px;
+}
